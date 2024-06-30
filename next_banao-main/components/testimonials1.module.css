@@ -1,0 +1,303 @@
+.frameChild {
+  width: 1240px;
+  height: 472px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-3);
+  display: none;
+  max-width: 100%;
+}
+.quoteIcon,
+.testimonials1 {
+  position: relative;
+  z-index: 1;
+}
+.quoteIcon {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+  min-height: 40px;
+}
+.testimonials1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.quoteParent,
+.testimonialsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testimonialsWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.quoteParent {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.inAFast {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 300;
+  z-index: 1;
+}
+.audioTrackChild,
+.playBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.audioTrackChild {
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-2);
+  display: none;
+}
+.playBackground {
+  border-radius: 50%;
+  background-color: var(--grey-white);
+  z-index: 1;
+}
+.playArrowBlack24dp1Icon {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  z-index: 2;
+}
+.playButton {
+  position: absolute;
+  top: 30px;
+  left: 32px;
+  width: 40px;
+  height: 40px;
+}
+.audioTrackItem,
+.micblackdp {
+  position: absolute;
+  border-radius: 50%;
+}
+.micblackdp {
+  top: 44px;
+  left: 112px;
+  background-color: var(--primary-full);
+  width: 12px;
+  height: 12px;
+  z-index: 2;
+}
+.audioTrackItem {
+  top: 19px;
+  left: 684px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  z-index: 1;
+}
+.micBlack24dp1Icon {
+  position: absolute;
+  top: 47px;
+  left: 672px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  z-index: 2;
+}
+.audioProgressChild {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--grey-white);
+  z-index: 1;
+}
+.audioProgress {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) 0 0;
+  box-sizing: border-box;
+  min-width: 304px;
+  max-width: 100%;
+}
+.div {
+  position: relative;
+  line-height: 16px;
+  display: inline-block;
+  min-width: 26px;
+  z-index: 1;
+}
+.audioDuration {
+  position: absolute;
+  top: 42px;
+  left: 118px;
+  width: 506px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.audioTrack,
+.shubhaNagarajanIcon {
+  height: 100px;
+  position: relative;
+  z-index: 1;
+}
+.audioTrack {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-2);
+  min-width: 504px;
+  max-width: 100%;
+}
+.shubhaNagarajanIcon {
+  width: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.classicalDancer,
+.shubhaNagarajan {
+  position: relative;
+  letter-spacing: 0.02em;
+  z-index: 1;
+}
+.shubhaNagarajan {
+  font-weight: 600;
+}
+.classicalDancer {
+  font-size: var(--text-sm-bold-size);
+  color: var(--blue-1);
+  display: inline-block;
+  min-width: 123px;
+}
+.shubhaNagarajanGroup,
+.speakerInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shubhaNagarajanGroup {
+  gap: var(--gap-9xs);
+}
+.speakerInfo {
+  padding: var(--padding-5xl) 0 0;
+}
+.audioTestimonial,
+.shubhaNagarajanParent,
+.testimonialDescription {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shubhaNagarajanParent {
+  gap: var(--gap-5xl);
+  min-width: 304px;
+  font-size: var(--font-size-lg);
+}
+.audioTestimonial,
+.testimonialDescription {
+  align-self: stretch;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  font-size: var(--font-size-xs);
+  color: var(--primary-full);
+}
+.testimonialDescription {
+  flex-direction: column;
+  gap: var(--gap-21xl);
+  font-size: var(--font-size-lg);
+  color: var(--grey-darker);
+}
+.rectangleParent,
+.testimonials {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.rectangleParent {
+  width: 1240px;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-3);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-21xl);
+  gap: var(--gap-13xl);
+}
+.testimonials {
+  align-self: stretch;
+  background-color: var(--grey-white);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  flex-shrink: 0;
+  z-index: 4;
+  margin-top: -33px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--grey-darkest);
+  font-family: var(--text-sm-bold);
+}
+@media screen and (max-width: 1200px) {
+  .audioTestimonial {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .shubhaNagarajanParent {
+    flex: 1;
+  }
+  .audioTestimonial {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .audioDuration {
+    flex-wrap: wrap;
+  }
+  .audioTrack {
+    height: auto;
+    min-height: 100;
+    min-width: 100%;
+  }
+  .audioTestimonial,
+  .testimonialDescription {
+    gap: var(--gap-xl);
+  }
+  .rectangleParent {
+    gap: var(--gap-base);
+    padding-top: var(--padding-81xl);
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonials1 {
+    font-size: var(--font-size-lgi);
+  }
+  .shubhaNagarajanIcon {
+    flex: 1;
+  }
+  .shubhaNagarajanParent {
+    flex-wrap: wrap;
+  }
+}

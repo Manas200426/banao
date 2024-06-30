@@ -1,0 +1,110 @@
+.frameChild {
+  width: 608px;
+  height: 297px;
+  position: relative;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--grey-light);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.groupsBlack24dp11 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+  z-index: 1;
+}
+.people {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 83px;
+  z-index: 1;
+}
+.peopleIconConnectLabel,
+.peopleLabel {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.peopleLabel {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.peopleIconConnectLabel {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.findATeacher {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 300;
+  white-space: pre-wrap;
+  z-index: 1;
+}
+.peopleConnectPlace {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.connect {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 61px;
+}
+.navLabel,
+.rectangleParent {
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navLabel {
+  border: 1px solid var(--primary-full);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-10xl) var(--padding-3xs)
+    var(--padding-11xl);
+  z-index: 1;
+  font-size: var(--text-sm-bold-size);
+  color: var(--primary-full);
+}
+.rectangleParent {
+  flex: 1;
+  border: 1px solid var(--grey-light);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-19xl) var(--padding-24xl);
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--base-black);
+  font-family: var(--text-sm-bold);
+}
+@media screen and (max-width: 750px) {
+  .rectangleParent {
+    gap: var(--gap-base);
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .people {
+    font-size: var(--font-size-lgi);
+  }
+}

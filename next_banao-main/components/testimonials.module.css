@@ -1,0 +1,213 @@
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--grey-light);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+.areYouA {
+  position: absolute;
+  top: 174px;
+  left: 40px;
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 300;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 1160px;
+}
+.addIcon,
+.addYourOwn {
+  position: absolute;
+  top: 40px;
+}
+.addYourOwn {
+  left: 529px;
+  font-size: var(--font-size-17xl);
+  font-weight: 600;
+}
+.addIcon {
+  left: 459px;
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+}
+.addNew {
+  position: absolute;
+  top: 12px;
+  left: 29px;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+}
+.addNewWrapper {
+  position: absolute;
+  top: 250px;
+  left: 40px;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--primary-full);
+  box-sizing: border-box;
+  width: 122px;
+  height: 40px;
+  white-space: nowrap;
+  font-size: var(--text-sm-bold-size);
+  color: var(--primary-full);
+}
+.rectangleParent {
+  height: 330px;
+  width: 1240px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.addCardBackground {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--grey-light);
+  box-sizing: border-box;
+}
+.addIcon1 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 40px;
+}
+.addYourOwn1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+}
+.addParent,
+.addYourOwnWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addYourOwnWrapper {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.addParent {
+  flex-direction: row;
+  gap: var(--gap-5xl);
+}
+.areYouA1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 0.02em;
+  line-height: 30px;
+  font-weight: 300;
+  white-space: pre-wrap;
+}
+.addNew1 {
+  position: relative;
+  line-height: 16px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 63px;
+}
+.addCardContent,
+.addNewButton {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addNewButton {
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--primary-full);
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-9xl);
+  white-space: nowrap;
+  font-size: var(--text-sm-bold-size);
+  color: var(--primary-full);
+}
+.addCardContent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.addCardBackgroundParent {
+  width: 1240px;
+  justify-content: flex-start;
+  padding: var(--padding-21xl);
+  position: relative;
+}
+.addCardBackgroundParent,
+.testimonials,
+.testimonials1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonials1 {
+  flex: 1;
+  background-color: var(--blue-2);
+  justify-content: center;
+  padding: var(--padding-81xl) var(--padding-xl);
+  z-index: 3;
+  font-size: var(--font-size-5xl);
+}
+.testimonials {
+  align-self: stretch;
+  background-color: var(--grey-white);
+  justify-content: flex-start;
+  padding: var(--padding-base) 0 var(--padding-11xl);
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -33px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--grey-darkest);
+  font-family: var(--text-sm-bold);
+}
+@media screen and (max-width: 1050px) {
+  .addYourOwn {
+    font-size: var(--font-size-10xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .addCardContent {
+    gap: var(--gap-base);
+  }
+  .testimonials1 {
+    padding-top: var(--padding-base);
+    padding-bottom: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+  .testimonials {
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .addYourOwn {
+    font-size: var(--font-size-3xl);
+  }
+  .addYourOwn1 {
+    font-size: var(--font-size-lgi);
+  }
+}

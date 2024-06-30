@@ -1,0 +1,620 @@
+.homeScreenChild {
+  width: 1440px;
+  height: 678px;
+  position: relative;
+  background-color: var(--purple-3);
+  display: none;
+  max-width: 100%;
+}
+.exploreYour {
+  color: var(--base-black);
+}
+.hobby {
+  color: var(--blue-1);
+}
+.or {
+  color: var(--base-black);
+}
+.passion {
+  color: var(--primary-full);
+}
+.exploreYourHobbyContainer,
+.ifYouAre,
+.signInToInteract {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-family: var(--text-sm-bold);
+  text-align: left;
+  z-index: 1;
+}
+.exploreYourHobbyContainer {
+  margin: 0;
+  font-size: var(--font-size-17xl);
+  display: inline-block;
+  font-style: italic;
+  font-weight: 600;
+  max-width: 100%;
+}
+.ifYouAre,
+.signInToInteract {
+  font-size: var(--text-sm-bold-size);
+  line-height: 30px;
+  font-weight: 300;
+  color: var(--base-black);
+}
+.signInToInteract {
+  align-self: stretch;
+}
+.ifYouAre {
+  flex: 1;
+  white-space: pre-wrap;
+  display: inline-block;
+  max-width: 100%;
+}
+.expertSeller,
+.signInDescription,
+.slogan {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.expertSeller {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.signInDescription,
+.slogan {
+  flex-direction: column;
+}
+.signInDescription {
+  align-self: stretch;
+  gap: var(--gap-base);
+}
+.slogan {
+  width: 707px;
+  gap: var(--gap-13xl);
+  min-width: 707px;
+}
+.signIn {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--primary-full);
+  text-align: left;
+  display: inline-block;
+  min-width: 69px;
+}
+.signInButtonBg {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--primary-full);
+}
+.signInParent {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.joinIn {
+  position: relative;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 67px;
+}
+.frameChild {
+  height: 2px;
+  width: 67px;
+  position: relative;
+  background-color: var(--primary-full);
+  display: none;
+}
+.joinInParent,
+.signinjoinin {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.signinjoinin {
+  width: 169px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.googleIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.continueWithGoogle {
+  position: relative;
+  font-size: var(--text-sm-bold-size);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--grey-darkest);
+  text-align: left;
+}
+.loginWithOtherAccounts {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-3);
+  border: 1px solid var(--primary-full);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  gap: var(--gap-69xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.facebookIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.continueWithFacebook {
+  position: relative;
+  font-size: var(--text-sm-bold-size);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--grey-darkest);
+  text-align: left;
+}
+.googleFacebook,
+.loginWithOtherAccounts1 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.loginWithOtherAccounts1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--purple-3);
+  border: 1px solid var(--primary-full);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-5xl);
+  gap: var(--gap-60xl);
+  white-space: nowrap;
+  z-index: 1;
+}
+.googleFacebook {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.frameItem {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--grey-light);
+}
+.connectWithSeparatorInner {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 97px;
+}
+.orConnectWith {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--base-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+}
+.frameInner {
+  align-self: stretch;
+  height: 2px;
+  position: relative;
+  background-color: var(--grey-light);
+}
+.connectWithSeparator,
+.connectWithSeparatorChild {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.connectWithSeparatorChild {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 97px;
+}
+.connectWithSeparator {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  z-index: 1;
+}
+.email {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  font-family: var(--text-sm-bold);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 33px;
+}
+.inputFields {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--grey-lighter);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-xs);
+  z-index: 1;
+}
+.password {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  font-family: var(--text-sm-bold);
+  color: var(--color-darkgray);
+  text-align: left;
+  display: inline-block;
+  min-width: 58px;
+}
+.passwordIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+}
+.component7 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  background-color: var(--grey-white);
+  border: 1px solid var(--grey-lighter);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-smi) var(--padding-3xs)
+    var(--padding-2xs);
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.authOptions,
+.externalAuth,
+.googleFacebook1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.authOptions,
+.externalAuth {
+  gap: var(--gap-9xl);
+}
+.authOptions {
+  gap: var(--gap-13xl);
+}
+.actions,
+.sloganActions {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.actions {
+  width: 410px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  min-width: 410px;
+}
+.sloganActions {
+  width: 1240px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.spaceIcon,
+.spaceIcon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  min-width: 219px;
+  min-height: 216px;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.spaceIcon1 {
+  min-width: 225px;
+}
+.remember,
+.rememberPassword {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.remember {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-mini-4);
+}
+.rememberPassword {
+  width: 697.1px;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 697.1px;
+}
+.checkboxBg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple-3);
+  border: 1px solid var(--primary-full);
+  box-sizing: border-box;
+}
+.checkbox,
+.rememberMe1 {
+  position: relative;
+  z-index: 1;
+}
+.checkbox {
+  height: 16px;
+  width: 16px;
+}
+.rememberMe1 {
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  font-family: var(--text-sm-bold);
+  color: var(--base-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 92px;
+}
+.rememberMe {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.lockBlack24dp1Icon {
+  height: 16px;
+  width: 15.8px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 16px;
+  z-index: 1;
+}
+.forgotPassword1 {
+  position: relative;
+  font-size: var(--font-size-xs);
+  line-height: 16px;
+  font-family: var(--text-sm-bold);
+  color: var(--base-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 107.4px;
+  z-index: 1;
+}
+.forgotElements,
+.forgotPassword {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs-8);
+}
+.forgotElements {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.continue {
+  position: relative;
+  font-size: var(--text-sm-bold-size);
+  line-height: 16px;
+  font-weight: 600;
+  font-family: var(--text-sm-bold);
+  color: var(--base-black);
+  text-align: left;
+  display: inline-block;
+  min-width: 66px;
+}
+.buttons,
+.forgot,
+.rememberForgot {
+  display: flex;
+  align-items: flex-start;
+}
+.buttons {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--base-black);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs) var(--padding-xl);
+  z-index: 1;
+}
+.forgot,
+.rememberForgot {
+  width: 410px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.rememberForgot {
+  width: 1240px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.homeScreen,
+.homeScreenWrapper {
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.homeScreen {
+  margin: 0;
+  flex: 1;
+  background-color: var(--purple-3);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-81xl) var(--padding-xl) 0;
+  gap: var(--gap-5xl);
+  flex-shrink: 0;
+  z-index: 2;
+}
+.passwordStrength {
+  width: 190px;
+  margin-left: 280px;
+  gap: 0px;
+  opacity: 0px;
+  color: #939CA3;
+}
+
+.terms {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 10px;
+  opacity: 1;
+}
+
+.agreeAndContinue {
+  width: 410px;
+  height: 40px;
+  padding: 12px 133.5px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #8064A2;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  opacity: 1;
+}
+.homeScreenWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-8xl);
+}
+.active {
+  color: #8064A2;
+}
+
+.inactive {
+  color: #939CA3;
+}
+@media screen and (max-width: 1200px) {
+  .actions,
+  .slogan {
+    flex: 1;
+  }
+  .sloganActions {
+    flex-wrap: wrap;
+  }
+  .rememberPassword {
+    flex: 1;
+  }
+  .rememberForgot {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .exploreYourHobbyContainer {
+    font-size: var(--font-size-10xl);
+  }
+  .rememberPassword,
+  .slogan {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .slogan {
+    gap: var(--gap-base);
+  }
+  .actions {
+    min-width: 100%;
+  }
+  .remember {
+    flex-wrap: wrap;
+  }
+  .homeScreen {
+    padding-top: var(--padding-46xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .exploreYourHobbyContainer {
+    font-size: var(--font-size-3xl);
+  }
+  .joinIn,
+  .signIn {
+    font-size: var(--font-size-base);
+  }
+  .loginWithOtherAccounts {
+    gap: var(--gap-25xl);
+  }
+  .loginWithOtherAccounts1 {
+    gap: var(--gap-20xl);
+  }
+  .connectWithSeparator {
+    flex-wrap: wrap;
+  }
+  .authOptions {
+    gap: var(--gap-base);
+  }
+  .forgotElements {
+    flex-wrap: wrap;
+  }
+}
